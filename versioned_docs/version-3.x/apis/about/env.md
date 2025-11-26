@@ -22,6 +22,8 @@ title: 环境判断
 
 `ENV_TYPE.JD` 京东小程序 环境
 
+`ENV_TYPE.ASCF` ASCF元服务环境
+
 ## Taro.getEnv()
 
 获取当前环境值，具体值如上 `Taro.ENV_TYPE`
