@@ -1,8 +1,12 @@
 import './index.css'
 
 import Layout from '@theme/Layout'
-import types from 'miniapp-types/dist/jsonSchema.json'
+import _types from 'miniapp-types/dist/jsonSchema.json'
 import React, { Fragment, useState } from 'react'
+
+import ascfJson from './ascf.json'
+
+const types = _types.concat(ascfJson)
 
 const useList = {}
 types.forEach((e) => {
