@@ -544,11 +544,11 @@
             "description": "打开应用成功时的回调，open-type=\"launchApp\"时有效。起始版本： 1.0.6",
             "tsType": "() => void"
           },
-          "onCreateliveactivity": {
+          "onCreateLiveactivity": {
             "description": "获取服务动态授权码的回调，open-type=\"liveActivity\"时有效，event.detail = { code }。起始版本： 1.0.20",
             "tsType": "() => void"
           },
-          "onGetphonenumberandrisklevel": {
+          "onGetPhoneNumberAndRiskLevel": {
             "description": "获取手机号和风险等级的回调，open-type=\"getPhoneNumberAndRiskLevel\"时有效，event.detail = { code }。起始版本： 1.0.20",
             "tsType": "() => void"
           },
